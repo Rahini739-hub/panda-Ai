@@ -1,0 +1,22 @@
+{
+  "name": "PandaBuddy AI — Virtual Pet Companion",
+  "short_name": "PandaBuddy",
+  "description": "Cross-platform animated 3D AI virtual pet companion for daily habits, study focus, sleep schedules, and friendly guidance.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0a1a",
+  "theme_color": "#0c0a1a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/src/assets/images/panda_buddy_portrait_1792338723967.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/src/assets/images/panda_buddy_portrait_1792338723967.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

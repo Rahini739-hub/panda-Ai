@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>PandaBuddy AI — Virtual Pet Companion</title>
+    <meta name="description" content="An exceptionally beautiful, realistic, animated, interactive 3D panda virtual pet companion with emotional intelligence, focus timer, daily habits, mini-games, and cozy zen ambiance." />
+    <meta property="og:title" content="PandaBuddy AI — Virtual Pet Companion" />
+    <meta property="og:description" content="An exceptionally beautiful, realistic, animated, interactive 3D panda virtual pet companion with emotional intelligence, focus timer, daily habits, mini-games, and cozy zen ambiance." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0c0a1a" />
+  </head>
+  <body class="bg-[#0b0a17] text-slate-100 antialiased selection:bg-purple-600 selection:text-white overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.log('SW registration note:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+

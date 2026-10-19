@@ -1,0 +1,6 @@
+{
+  "name": "PandaBuddy AI — Virtual Pet Companion",
+  "description": "An exceptionally beautiful, realistic, animated, interactive 3D panda virtual pet companion with emotional intelligence, focus timer, daily habits, mini-games, and cozy zen ambiance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
